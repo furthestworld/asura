@@ -1,0 +1,26 @@
+{
+    "name": "furthestworld/asura",
+    "description": "yeah, another php cli command tool.",
+    "keywords": [
+        "php",
+        "command"
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": { "FurthestWorld\\Asura\\": "" },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+
+    "authors": [
+        {
+            "name": "xuanskyer",
+            "email": "furthestworld@icloud.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
